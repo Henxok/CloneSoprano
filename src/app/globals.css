@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+  background: linear-gradient(135deg, #e9e5ff 0%, #fbfbfb 100%);
+  color: #18181b;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.18s;
+}
+
+a:hover {
+  color: #d32423;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  border-radius: 999px;
+  padding: 0.7em 1.8em;
+  font-weight: 600;
+  background: linear-gradient(90deg,#d32423 0%,#31a0c7 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(49,160,199,0.06);
+  cursor: pointer;
+  transition: background 0.18s, box-shadow 0.18s, transform 0.16s;
+}
+
+button:hover {
+  background: linear-gradient(90deg,#31a0c7 0%,#d32423 100%);
+  box-shadow: 0 6px 22px 0 rgba(49,160,199,0.10);
+  transform: translateY(-2px) scale(1.03);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #e3e3e3;
+  border-radius: 99px;
+}
